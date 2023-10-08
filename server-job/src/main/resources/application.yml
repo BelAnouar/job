@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri : mongodb+srv://Anwar:Anwar123@cluster0.636gzrj.mongodb.net
+      database : project
