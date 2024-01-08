@@ -14,11 +14,11 @@ export default NextAuth({
     providers:[
         //google Provide
         GoogleProvider({
-            clientId:`462494049339-t8ik0vcs7b5aptktnievterc58mm5ng3.apps.googleusercontent.com`,
-            clientSecret:`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`
+            clientId:  // Client ID google Auth ,
+            clientSecret://code google Auth
         }),GithibProvider({
-            clientId:`fc807ffb3dde2bd6dae0`,
-            clientSecret:`0bbe3bbd33e7fd173a184373a0af452c85d07aef`
+            clientId: // Client ID google Auth ,
+            clientSecret: //code google Auth
         }),CredentialsProvider({
             name:"credentials",
             async authorize(credentials,req){
