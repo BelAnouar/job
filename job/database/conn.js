@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 
 const connectMongo=async()=>{
     try{
-            const {connection}=await mongoose.connect("mongodb+srv://Anwar:Anwar123@cluster0.636gzrj.mongodb.net/project")
+            const {connection}=await mongoose.connect("//APi mongoAtlas")
             if(connection.readyState==1){
                 return Promise.resolve(true)
             }
